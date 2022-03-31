@@ -257,7 +257,7 @@ footer .author{
     }
     /*video*/
     #video{
-        margin:100px 0;
+        margin:10% 0;
     }
     #video iframe {
         width:100%;
@@ -299,24 +299,21 @@ footer .author{
         display:block;
     }
     /*video*/
-    #video{
-        display:none;
-    }
-    /*bg*/
-    #bg{
+    #video iframe{
         height:300px;
-        margin:50px 0;
     }
-    #bg h1{
-        top:70px;
-    }  
-    #bg p{
-        top:150px;
-    }
+    #video h2{font-size:12px;}
+    /*bg*/
+    #bg{display:none;}
     /*contents*/
     .best span{
         font-size:12px;
     }
+    .best li:hover span{display:none;}
+    .best li:hover img{
+        display:block;
+        opacity:0.5;
+        cursor:pointer;}
     /*map*/
     .map{
         margin:50px 0 20px 0;
